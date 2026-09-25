@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="54ef34a1282303107f446e5980a9a53f" label="Wish Item" max_length="40" name="x_1234_wishlist_wish_item" type="collection">
+        <element label="Display name" max_length="300" name="display_name" read_only="true" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="URL" max_length="1024" name="url" type="url"/>
         <element label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
